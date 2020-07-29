@@ -1,0 +1,25 @@
+@import '~normalize.css'; /*~ means that we need to go to node-modules*/
+@import 'fonts.css';
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    padding-top: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+.logo {
+    background-image: url('../assets/cat.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+}

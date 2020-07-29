@@ -1,0 +1,11 @@
+$border: 1px solid grey;
+
+.card {
+  padding: 1rem;
+  border: $border;
+
+  h2 {
+    text-align: center;
+    color: brown;
+  }
+}
